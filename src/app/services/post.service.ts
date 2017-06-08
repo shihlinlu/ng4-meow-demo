@@ -7,7 +7,7 @@ import {Status} from "../classes/status";
 
 @Injectable()
 export class PostService extends BaseService {
-	constructed(protected http: Http) {
+	constructor(protected http: Http) {
 		super(http);
 	}
 
