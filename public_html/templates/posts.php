@@ -1,54 +1,25 @@
-<meow-navbar></meow-navbar>
+<div class="sfooter">
+	<div class="sfooter-content">
+		<meow-navbar></meow-navbar>
 
-<main class="bg">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-4">
-				<h1>Create New Post</h1>
-
-				<!-- Create New Post Form -->
-				<form id="contact-form">
-					<div class="form-group">
-						<label class="sr-only" for="postTitle">Title <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-pencil" aria-hidden="true"></i>
-							</div>
-							<input type="text" class="form-control" id="postTitle" name="postTitle" placeholder="Post Title">
-						</div>
+		<main class="bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>About Meow</h1>
 					</div>
-					<div class="form-group">
-						<label class="sr-only" for="postContent">Content <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</div>
-							<textarea class="form-control" name="postContent" id="postContent" cols="30" rows="10" placeholder="1024 characters max."></textarea>
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<p>Meow for food, then when human fills food dish, take a few bites of food and continue meowing fall asleep on the washing machine hunt by meowing loudly at 5am next to human slave food dispenser. Rub face on owner lies down but you call this cat food?. Kick up litter put butt in owner's face and wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again and eats owners hair then claws head.</p>
 					</div>
-
-					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Submit</button>
-					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-				</form>
-
-			</div>
-
-			<div class="col-md-8">
-				<h1>Blabbermouth Kitty Diary</h1>
-
-				<!-- Begin Post Item -->
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="h4">Post Title <small>// post date</small></div>
-					</div>
-					<div class="panel-body">
-						This is the post content
+					<div class="col-md-6">
+						<p>When in doubt, wash eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap hunt anything that moves, and purr while eating pee in human's bed until he cleans the litter box inspect anything brought into the house purr.</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 	</div>
-</main>
 
-<meow-footer></meow-footer>
+	<meow-footer></meow-footer>
+</div>
